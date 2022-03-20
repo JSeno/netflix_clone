@@ -13,7 +13,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #FFFFFF;
 }
 
@@ -46,20 +46,22 @@ header nav a:hover{
 }
 
 /* Filme Principal*/
-.filme-principal{
+.jogo-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('/img/game_000.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('/img/game_background.jpg');
 
-    height: 400px;
+    height: 700px;
     background-size: cover;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: auto;
+    max-height: 100%;
 }
 
-.filme-principal .descricao{
+.jogo-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -96,6 +98,18 @@ header nav a:hover{
 }
 
 
-.filme-principal .container{
+.jogo-principal .container{
     width: 70%;
+}
+
+.box-jogo{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+
+
+.carrosel-jogos{
+    height:auto;
+    margin-top: 5px;
 }
